@@ -1,0 +1,22 @@
+<ion-view view-title="用户登录">
+  <ion-content>
+    <div class="hero no-header flat">
+      <div class="content">
+        <div class="app-icon"></div>
+        <h1>用户登录</h1>
+      </div>
+    </div>
+    <div class="list">
+      <ion-md-input placeholder="手机号" highlight-color="balanced" type="text"></ion-md-input>
+      <ion-md-input placeholder="密码" highlight-color="energized" type="password"></ion-md-input>
+    </div>
+    <div class="padding">
+      <button ui-sref="app.user.tab1" class="button button-full button-assertive ink">登录</button>
+    </div>
+    <div class="button-bar social-login">
+      <button class="button button-small button-border icon-left button-calm" ui-sref="app.signUp">注册送礼</button>
+      <!--<button class="button button-small button-border icon-left button-energized" ng-click="shareFrend">邀请好友</button>-->
+      <button class="button button-small button-border icon-left button-balanced" ng-click="forgetPassword()">忘记密码</button>
+    </div>
+  </ion-content>
+</ion-view>

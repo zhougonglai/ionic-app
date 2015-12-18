@@ -1,0 +1,20 @@
+<ion-view view-title="注册">
+  <ion-content>
+    <div class="hero no-header flat">
+      <div class="content">
+        <div class="app-icon"></div>
+        <h1>用户注册</h1>
+        <p ui-sref="app.login">?已有账号</p>
+      </div>
+    </div>
+    <div class="list">
+      <!--energized-->
+      <ion-md-input ng-model="user.phone" placeholder="手机号" highlight-color="balanced" type="text"></ion-md-input>
+      <ion-md-input ng-model="user.password" placeholder="密码" highlight-color="balanced" type="password"></ion-md-input>
+      <ion-md-input ng-model="userPhone" placeholder="推荐人手机号" highlight-color="balanced" type="text"></ion-md-input>
+    </div>
+    <div class="padding">
+      <button ui-sref="app.user.tab1" class="button button-full button-assertive ink">登录</button>
+    </div>
+  </ion-content>
+</ion-view>

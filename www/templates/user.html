@@ -1,0 +1,26 @@
+<ion-view view-title="用户中心">
+  <ion-content ng-class="">
+    <div class="hero slide-up" style="background-image: url('img/840.png');">
+      <div class="content ">
+        <div class="avatar"  style="background-image: url('img/ff.png');"></div>
+        <h3 class=""><a class="light">亿富贷用户</a></h3>
+        <!--<h4>dragon_mommy</h4>-->
+      </div>
+    </div>
+    <!--static-->
+    <div class="tabs tabs-striped tabs-color-assertive tabs-icon-top static">
+        <a ui-sref="app.user.tab1" data-ink-color="#ef473a" data-ink-opacity=".35" class="tab-item " ui-sref-active="active">
+          <i class="icon ion-arrow-graph-up-right"></i>投资信息
+        </a>
+        <a ui-sref="app.user.tab2" data-ink-color="#ef473a" data-ink-opacity=".35" class="tab-item" ui-sref-active="active">
+          <i class="icon ion-cash"></i>借款信息
+        </a>
+        <a ui-sref="app.user.tab3" data-ink-color="#ef473a" data-ink-opacity=".35" class="tab-item" ui-sref-active="active">
+          <i class="icon ion-android-person"></i>用户信息
+        </a>
+      </div>
+
+    <ion-nav-view>
+    </ion-nav-view>
+  </ion-content>
+</ion-view>
